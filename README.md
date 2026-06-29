@@ -20,16 +20,16 @@ This mod allows you to read the server chat in your own language and automatical
 
 *   **/trmenu**: Opens the visual configuration menu. Here you must configure your preferences.
 *   **/tr [text]**: Translates the text you type into the "Server language" and sends it to the general chat.
-    *   *Example*: `/tr hello everyone` will send "hola a todos" if the server language is set to Spanish[cite: 1].
+    *   *Example*: `/tr hello everyone` will send "hola a todos" if the server language is set to Spanish.
 
 ## ⚙️ Configuration Options
 
 Inside the menu, you can set the following[cite: 1]:
 
-1. **My language**: Select the language in which YOU want to read the chat[cite: 1].
-2. **Server language**: Select the language spoken by the other players (the language your outgoing messages will be translated into)[cite: 1].
-3. **Auto-Translator**: Enables automatic translation of the incoming chat[cite: 1].
-4. **Clan Only (!)**: If enabled, the Auto-Translator will only translate messages containing the `(!)` tag, ignoring the rest of the chat (ideal for not flooding your screen with useless text)[cite: 1].
+1. **My language**: Select the language in which YOU want to read the chat.
+2. **Server language**: Select the language spoken by the other players (the language your outgoing messages will be translated into).
+3. **Auto-Translator**: Enables automatic translation of the incoming chat.
+4. **Clan Only (!)**: If enabled, the Auto-Translator will only translate messages containing the `(!)` tag, ignoring the rest of the chat (ideal for not flooding your screen with useless text).
 
 ---
 
@@ -37,4 +37,4 @@ Inside the menu, you can set the following[cite: 1]:
 The official code is fully compiled as `.luac` to protect the project's intellectual property and ensure high compatibility with Moonloader.
 
 ## 💬 Support & Feedback
-I will be implementing improvements whenever possible. If you have any advice or features you want added, don't hesitate to DM me. Thank you very much![cite: 1]
+I will be implementing improvements whenever possible. If you have any advice or features you want added, don't hesitate to DM me. Thank you very much!
