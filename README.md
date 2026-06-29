@@ -24,7 +24,7 @@ This mod allows you to read the server chat in your own language and automatical
 
 ## ⚙️ Configuration Options
 
-Inside the menu, you can set the following[cite: 1]:
+Inside the menu, you can set the following:
 
 1. **My language**: Select the language in which YOU want to read the chat.
 2. **Server language**: Select the language spoken by the other players (the language your outgoing messages will be translated into).
