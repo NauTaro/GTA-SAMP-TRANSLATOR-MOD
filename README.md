@@ -100,16 +100,19 @@ Keyboard shortcuts can be changed directly from the configuration menu or with `
 ##  Installation
 
 1. Install **MoonLoader** and the required dependencies for your SA-MP setup.
-2. Place the released `translator.luac` file in:
+2. Extract the ZIP into your GTA SAMP folder.
 
 ```text
-GTA San Andreas/
+GTA SAMP/
 └── moonloader/
-    └── translator.luac
+└── resources/
+ └── translator.lua
 ```
 
-3. Start GTA: San Andreas and connect to a SA-MP server.
-4. Use `/trmenu` to configure your languages and translation options.
+3. Make sure the icon files are inside:
+   moonloader/resource/translator-ultimate/icons/
+4. Start the game and connect to a SA-MP server.
+5. Use `/trmenu` to configure your languages and translation options.
 
 ##  How the translation pipeline works
 
