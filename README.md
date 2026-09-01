@@ -12,7 +12,7 @@
 
 It translates incoming and outgoing text while preserving the original SA-MP presentation as closely as possible. The 1.4.0 release expands the translator from a basic chat utility into a broader text-translation system covering chat, dialogs, TextDraws, 3D labels and player chat bubbles.
 
-## ✨ What's new in 1.4.0
+##  What's new in 1.4.0
 
 - **Full chat translation pipeline** for server messages, player chat and outgoing messages.
 - **Two chat translation modes:**
@@ -35,7 +35,7 @@ It translates incoming and outgoing text while preserving the original SA-MP pre
 - **Expanded configuration UI** with dedicated sections for translation, languages, appearance, FAQ, credits and hotkeys.
 - **Optional automatic update support** through the project's updater module.
 
-## 🛠️ Commands
+##  Commands
 
 | Command | Description |
 |---|---|
@@ -53,7 +53,7 @@ It translates incoming and outgoing text while preserving the original SA-MP pre
 
 The message is translated into the configured outgoing language before being sent.
 
-## 🌍 Supported languages
+##  Supported languages
 
 - Spanish (`ES`)
 - Portuguese / Brazil (`PT-BR`)
@@ -66,7 +66,7 @@ The message is translated into the configured outgoing language before being sen
 - Romanian (`RO`)
 - Automatic (`AUTO`)
 
-## ⚙️ Configuration
+##  Configuration
 
 The configuration menu provides separate controls for:
 
@@ -97,7 +97,7 @@ The configuration menu provides separate controls for:
 
 Keyboard shortcuts can be changed directly from the configuration menu or with `/trkey`.
 
-## 🚀 Installation
+##  Installation
 
 1. Install **MoonLoader** and the required dependencies for your SA-MP setup.
 2. Place the released `translator.luac` file in:
@@ -111,7 +111,7 @@ GTA San Andreas/
 3. Start GTA: San Andreas and connect to a SA-MP server.
 4. Use `/trmenu` to configure your languages and translation options.
 
-## 🧠 How the translation pipeline works
+##  How the translation pipeline works
 
 Translator Ultimate processes translation requests through a local pipeline rather than sending every text event independently:
 
@@ -137,17 +137,17 @@ Rebuild original SA-MP element
 
 This architecture is designed to reduce duplicate requests, keep repeated text fast, and prevent stale asynchronous results from overwriting newer game text.
 
-## 🔒 Distribution
+##  Distribution
 
 The public release is distributed as compiled `.luac` code. The repository can therefore contain the release artifact without exposing the editable Lua source.
 
-## 📌 Compatibility notes
+##  Compatibility notes
 
 Translator Ultimate relies on the MoonLoader ecosystem, including `mimgui`, `effil`, `encoding`, `iconv`, `inicfg`, `memory` and, when available, `samp.events`.
 
 Some advanced translation features depend on the SA-MP event/RakNet functions exposed by the user's MoonLoader environment.
 
-## 💬 Support
+##  Support
 
 For bug reports and feature requests, open a GitHub Issue with:
 
